@@ -8,8 +8,6 @@ p的增值以一维数组的长度为单位
 Created by JIeJaitt
 */
 
-
-
 #include<stdio.h>
 int main()
 {
