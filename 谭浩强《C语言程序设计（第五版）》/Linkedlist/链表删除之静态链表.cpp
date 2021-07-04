@@ -32,7 +32,7 @@ struct Student
  		else
  		    p1->next=NULL;
  		//输出一个结点的数据 
- 		printf("%4d%8S\n",p1->num,p1->name);
+ 		printf("%4d%8s\n",p1->num,p1->name);
  		//如果不是最后一个结点，使p1指向下一个结点 
  		if(i<LA) 
  		    p1=p1->next;
@@ -46,7 +46,7 @@ struct Student
  		else
  		    p2->next=NULL;
  		//输出一个结点的数据 
- 		printf("%4d%8S\n",p2->num,p2->name);
+ 		printf("%4d%8s\n",p2->num,p2->name);
  		//如果不是最后一个结点，使p1指向下一个结点 
  		if(i<LB) 
  		    p2=p2->next;
